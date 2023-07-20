@@ -121,6 +121,7 @@ fun MainPage() {
                     val launcher = rememberLauncherForActivityResult(ActivityResultContracts.GetContent()) {
                         result.value = it
                     }
+
                     OutlinedTextField(
                         value = labelText,
                         onValueChange = { labelText = it },

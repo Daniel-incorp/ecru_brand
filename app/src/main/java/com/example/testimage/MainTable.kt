@@ -126,6 +126,7 @@ fun MainAttributes() {
     var textSales by rememberSaveable { mutableStateOf("") }
     var textDisplay by rememberSaveable { mutableStateOf("") }
     var textPlacement by rememberSaveable { mutableStateOf("") }
+
     Column(
         horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Bottom,
